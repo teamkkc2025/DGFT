@@ -336,17 +336,7 @@ def main():
    
     # Sidebar for instructions
     with st.sidebar:
-        st.header("⚙️ Requirements")
-        st.markdown("""
-        **Required packages:**
-        ```bash
-        pip install streamlit PyPDF2 pandas pdfplumber openpyxl
-        ```
-       
-        **Note:**
-        - pdfplumber provides better text extraction
-        - openpyxl is required for Excel file downloads
-        """)
+        
        
         st.header("📖 Instructions")
         st.markdown("""
